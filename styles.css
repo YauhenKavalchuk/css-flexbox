@@ -51,6 +51,23 @@
 
 /* Custom styles */
 .flex-container {
-  display: inline-flex;
-  min-height: 100vh;
+  display: flex;
+  /* min-height: 100vh; */
+  /* flex-direction: column; */
+}
+
+.item-1 {
+  order: 1;
+}
+
+.item-7 {
+  order: -1;
+}
+
+.item-4 {
+  order: 2;
+}
+
+.item-5 {
+  order: 1;
 }
