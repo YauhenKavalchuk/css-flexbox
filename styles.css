@@ -51,5 +51,6 @@
 
 /* Custom styles */
 .flex-container {
-  display: flex;
+  display: inline-flex;
+  min-height: 100vh;
 }
