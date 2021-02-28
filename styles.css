@@ -52,22 +52,12 @@
 /* Custom styles */
 .flex-container {
   display: flex;
-  /* min-height: 100vh; */
+  flex-wrap: wrap;
+  height: 100vh;
   /* flex-direction: column; */
+  gap: 5px;
 }
 
-.item-1 {
-  order: 1;
-}
-
-.item-7 {
-  order: -1;
-}
-
-.item-4 {
-  order: 2;
-}
-
-.item-5 {
-  order: 1;
+.flex-item {
+  width: calc(33.33% - 10px);
 }
