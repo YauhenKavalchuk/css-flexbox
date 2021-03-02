@@ -53,19 +53,23 @@
 .flex-container {
   display: flex;
   height: 100vh;
-  /* flex-flow: column wrap; */
-  justify-content: center;
-  align-items: center;
+  /* flex-wrap: wrap; */
+  /* align-content: space-around; */
+  align-items: flex-start;
 }
 
 .flex-item {
-  width: 100px;
-}
-
-.item-2 {
-  font-size: 150px;
+  width: 200px;
 }
 
 .item-4 {
-  font-size: 100px;
+  align-self: flex-end;
+}
+
+.item-5 {
+  align-self: center;
+}
+
+.item-6 {
+  align-self: stretch;
 }
