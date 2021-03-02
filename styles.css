@@ -52,24 +52,18 @@
 /* Custom styles */
 .flex-container {
   display: flex;
-  height: 100vh;
-  /* flex-wrap: wrap; */
-  /* align-content: space-around; */
-  align-items: flex-start;
 }
 
 .flex-item {
-  width: 200px;
+  /* flex-basis: 300px;
+  flex-grow: 1; */
+  flex: 1 0 300px;
 }
 
-.item-4 {
-  align-self: flex-end;
+.item-2 {
+  flex-shrink: 2;
 }
 
-.item-5 {
-  align-self: center;
-}
-
-.item-6 {
-  align-self: stretch;
+.item-3 {
+  flex-shrink: 3;
 }
