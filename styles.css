@@ -52,18 +52,16 @@
 /* Custom styles */
 .flex-container {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100vh;
 }
 
 .flex-item {
-  /* flex-basis: 300px;
-  flex-grow: 1; */
-  flex: 1 0 300px;
-}
-
-.item-2 {
-  flex-shrink: 2;
+  flex-basis: 100px;
+  flex-grow: 1;
 }
 
 .item-3 {
-  flex-shrink: 3;
+  flex-grow: 5;
 }
