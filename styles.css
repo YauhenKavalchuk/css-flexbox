@@ -54,18 +54,10 @@
   display: flex;
   height: 100vh;
   /* flex-flow: column wrap; */
-  justify-content: center;
-  align-items: center;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
 }
 
 .flex-item {
-  width: 100px;
-}
-
-.item-2 {
-  font-size: 150px;
-}
-
-.item-4 {
-  font-size: 100px;
+  /* width: 100px; */
 }
