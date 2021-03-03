@@ -53,11 +53,21 @@
 .flex-container {
   display: flex;
   height: 100vh;
-  /* flex-flow: column wrap; */
-  flex-direction: column-reverse;
-  justify-content: space-evenly;
+  /* align-items: baseline;
+  align-items: flex-start;
+  flex-direction: column; */
+  justify-content: center;
+  align-items: center;
 }
 
 .flex-item {
   /* width: 100px; */
+}
+
+.item-2 {
+  font-size: 150px;
+}
+
+.item-4 {
+  font-size: 100px;
 }
