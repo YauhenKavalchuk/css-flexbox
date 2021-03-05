@@ -52,16 +52,35 @@
 /* Custom styles */
 .flex-container {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
   height: 100vh;
 }
 
 .flex-item {
-  flex-basis: 100px;
-  flex-grow: 1;
+  flex: 1;
 }
 
-.item-3 {
-  flex-grow: 5;
+@media screen and (max-width: 650px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .item-2 {
+    order: -1;
+  }
 }
+
+/* .item-1 {
+  order: 1;
+}
+
+.item-7 {
+  order: -1;
+}
+
+.item-4 {
+  order: 2;
+}
+
+.item-5 {
+  order: 1;
+} */
