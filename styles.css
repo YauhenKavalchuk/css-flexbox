@@ -53,23 +53,11 @@
 .flex-container {
   display: flex;
   height: 100vh;
-  /* flex-wrap: wrap; */
-  /* align-content: space-around; */
-  align-items: flex-start;
+  align-content: stretch;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
 }
 
 .flex-item {
-  width: 200px;
-}
-
-.item-4 {
-  align-self: flex-end;
-}
-
-.item-5 {
-  align-self: center;
-}
-
-.item-6 {
-  align-self: stretch;
+  /* width: 200px; */
 }
