@@ -1,0 +1,18 @@
+/* Base styles */
+.flex-item {
+  font-size: 16px;
+  text-shadow: 2px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Custom styles */
+.flex-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+aside {
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

@@ -1,0 +1,21 @@
+/* Base styles */
+.flex-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.flex-item {
+  width: 300px;
+  min-height: 180px;
+}
+
+/* Custom styles */
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
