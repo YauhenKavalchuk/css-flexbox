@@ -53,11 +53,35 @@
 .flex-container {
   display: flex;
   height: 100vh;
-  align-content: stretch;
   flex-wrap: wrap;
-  flex-direction: column-reverse;
+  /* flex-direction: column; */
 }
 
 .flex-item {
-  /* width: 200px; */
+  width: 300px;
+}
+
+.item-1 {
+  align-self: stretch;
+}
+
+.item-2 {
+  align-self: flex-start;
+}
+
+.item-3 {
+  align-self: center;
+}
+
+.item-4 {
+  align-self: flex-end;
+}
+
+.item-5 {
+  align-self: baseline;
+}
+
+.item-6 {
+  align-self: baseline;
+  font-size: 100px;
 }
