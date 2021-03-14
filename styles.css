@@ -55,9 +55,11 @@
   flex-wrap: wrap;
   height: 100vh;
   /* flex-direction: column; */
-  gap: 5px;
+  /* padding: 5px; */
+  gap: 15px
 }
 
 .flex-item {
   width: calc(33.33% - 10px);
+  /* margin: 5px; */
 }
