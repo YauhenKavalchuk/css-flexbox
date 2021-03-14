@@ -12,7 +12,7 @@ p {
 /* Custom styles */
 .flex-container {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   flex-direction: row-reverse;
   gap: 1em;
 }

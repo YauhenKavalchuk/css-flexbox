@@ -6,7 +6,17 @@
 
 main {
   display: flex;
-  flex: 1;
+  flex: 1
+}
+
+@media screen and (max-width: 650px) {
+  main {
+    flex-direction: column;
+  }
+
+  section {
+    order: -1;
+  }
 }
 
 aside {
@@ -15,11 +25,4 @@ aside {
 
 section {
   flex: 3;
-}
-
-@media screen and (max-width: 650px) {
-  main {
-    flex-direction: column;
-    order: -1;
-  }
 }
