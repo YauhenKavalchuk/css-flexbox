@@ -2,7 +2,7 @@
 
 ### Описание курса:
 В данном видеокурсе мы с вами рассмотрим технология Flexbox.
-Flexible Box Layout Module (Flexbox) - модуль макета гибкого контейнера - представляет собой способ компоновки элементов, в основе лежит идея оси. Другими словами все элементы можно располагать вдоль основной и поперечной осей, или вертикально и горизонтально.
+Flexible Box Layout Module (Flexbox) - представляет собой способ компоновки элементов, в основе лежит идея оси. Другими словами все элементы можно располагать вдоль основной и поперечной осей, или вертикально и горизонтально.
 Технология позволяет буквально в пару свойств создать гибкий лэйаут, или гибкие UI элементы.
 
 ## Используемые инструменты:
@@ -22,18 +22,18 @@ Flexible Box Layout Module (Flexbox) - модуль макета гибкого 
 - Перейдите в нужную ветку соответствующую уроку: `git checkout lesson_01`, `git checkout lesson_02` и т.д.
 
 ## Список уроков
-- #0 Введение (Introduction)
-- #1 Основные понятия (Base Definitions)
-- #2 Направление осей (Flex-direction)
-- #3 Обёртка элементов и отступы (Flex-wrap & Gap)
-- #4 Выравнивание вдоль главной оси (Alignment: justify-content)
-- #5 Выравнивание вдоль поперечной оси (Alignment: align-items)
-- #6 Многострочное выравнивание (Alignment: align-content)
-- #7 Индивидуальное выравнивание элементов (Alignment: align-self)
-- #8 Размеры элементов (Flexbox Sizing)
-- #9 Определение порядка элементов (Order)
-- #10 Вложенность. Обёртка элементов с размерами (Nesting. Flex-basis & Flex-wrap)
-- #11 Практические примеры использования Flexbox (Practical examples)
+- [#0 Введение (Introduction)](https://youtu.be/O-ytfplFQ3c)
+- [#1 Основные понятия (Base Definitions)](https://youtu.be/9MxBkY2_WNA)
+- [#2 Направление осей (Flex-direction)](https://youtu.be/OQ6GyMD5E-s)
+- [#3 Обёртка элементов и отступы (Flex-wrap & Gap)](https://youtu.be/zvkE0MY1cxE)
+- [#4 Выравнивание вдоль главной оси (Alignment: justify-content)](https://youtu.be/FKDfECxwC54)
+- [#5 Выравнивание вдоль поперечной оси (Alignment: align-items)](https://youtu.be/_9idibPDs1s)
+- [#6 Многострочное выравнивание (Alignment: align-content)](https://youtu.be/sDkL7o0LXF0)
+- [#7 Индивидуальное выравнивание элементов (Alignment: align-self)](https://youtu.be/WeFMfoK9R2o)
+- [#8 Размеры элементов (Flexbox Sizing)](https://youtu.be/rDdUWDaJzQ8)
+- [#9 Определение порядка элементов (Order)](https://youtu.be/o_ozA-YMttU)
+- [#10 Вложенность. Обёртка элементов с размерами (Nesting. Flex-basis & Flex-wrap)](https://youtu.be/ar1F5IwBeSc)
+- [#11 Практические примеры использования Flexbox (Practical examples)](https://youtu.be/GGiHxIOmPaE)
 
 ## Автор курса в социальных сетях:
 
