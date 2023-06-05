@@ -52,4 +52,6 @@
 /* Custom styles */
 .flex-container {
   display: flex;
+	/* min-height: 100vh; */
+
 }
